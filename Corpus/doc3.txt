@@ -1,0 +1,59 @@
+KeePass Password Safe is a free and open-source password manager primarily for Windows. It officially supports macOS and Linux operating systems through the use of Mono. Additionally, there are several unofficial ports for Windows Phone, Android, iOS, and BlackBerry devices, which normally work with the same copied or shared (remote) password database.  KeePass stores usernames, passwords, and other fields, including free-form notes and file attachments, in an encrypted file. This file can be protected by any combination of a master password, a key file, and the current Windows account details. By default, the KeePass database is stored on a local file system (as opposed to cloud storage).
+KeePass comes in two different variants: KeePass 1.x and KeePass 2.x. Although the 1.x variant is the former variant it is supported indefinitely: Dominik Reichl: "2.x isn't the successor of 1.x, and 1.x isn't dead". KeePass 2.x has a different software basis in C# instead of the former C++. Mainly communication features are extended in KeePass 2.x: authentication with the Windows user account, remote and shared database editing as well as many plugins allowing communication and authentication with different web browsers, databases and more.
+KeePass 1.x and 2.x support a number of plugins, although 2.x allows more plugins. It has a password generator and synchronization function, supports two-factor authentication, and has a Secure Desktop mode. It can use a two-channel auto-type obfuscation feature to offer additional protection against keyloggers. KeePass can import from over 30 other most commonly used password managers.
+A 2017 Consumer Reports article described KeePass as one of the four most widely used password managers (alongside 1Password, Dashlane and LastPass), being "popular among tech enthusiasts" and offering the same level of security as non-free competitors.
+A 2019 Independent Security Evaluators study described KeePass as well as other widely used password managers as being unable to control Windows 10's tendency to leave passwords in cleartext in RAM after they are displayed using Windows controlled GUI. In addition, several GitHub projects (KeeFarce, KeeThief, Lazanga) specifically attack a running KeePass to steal all data when the host is compromised. KeePass cannot prevent password theft and, as Dominik Reichl, the administrator of KeePass, states, "neither KeePass nor any other password manager can magically run securely in a spyware-infected, insecure environment."
+
+Overview
+Import and export
+The password list is saved by default as a .kdbx file, but it can be exported to .txt, HTML, XML and CSV. The XML output can be used in other applications and re-imported into KeePass using a plugin. The CSV output is compatible with many other password safes like the commercial closed-source Password Keeper and the closed-source Password Agent. Also, the CSVs can be imported by spreadsheet applications like Microsoft Excel or OpenOffice/LibreOffice Calc.
+File format support can be expanded through the use of KeePass plugins.
+
+Multi-user support
+KeePass supports simultaneous access and simultaneous changes to a shared password file by multiple computers (often by using a shared network drive), however there is no provisioning of access per-group or per-entry. As of May 2014, there are no plugins available to add provisioned multi-user support, but there exists a proprietary password server (Pleasant Password Server) that is compatible with the KeePass client and includes provisioning.
+
+Auto-type and drag and drop
+KeePass can minimize itself and type the information of the currently selected entry into dialogs, webforms, etc. KeePass has a global auto-type hot key. When KeePass is running in the background (with an unlocked database) and user presses down the hotkey, it looks up the selected (or correct) entry and enters every login and/or password characters sequence. All fields, such as title, username, password, URL, and notes, can be drag and dropped into other windows.
+Windows clipboard handling allows double-clicking on any field of the password list to copy its value to the Windows clipboard. 
+KeePass may be configured to randomize characters' input sequence to make it harder to log keystrokes. The features is called Two-Channel Auto-Type Obfuscation (TCATO).
+
+Clipboard reset
+KeePass automatically clears the clipboard some time after the user has copied one of their passwords into it. KeePass features protection against clipboard monitors (other applications will not get notifications that the clipboard content has been changed).
+
+Browser support
+The auto-type functionality works with all windows, and consequently with all browsers. The KeeForm extension fills in user details into website form fields automatically. It is available for Mozilla Firefox, Google Chrome, and Microsoft Edge. Internet Explorer also has a browser integration toolbar available.
+
+Built-in password generator
+KeePass features a built-in password generator that generates random passwords. Random seeding can be done through user input (mouse movement and random keyboard input).
+
+Plugins
+KeePass has a plugin architecture. There are various plugins available from the KeePass website (such as import/export from/to various other formats, database backup, integration, automation, etc.). Note that plugins may compromise the security of KeePass, because they are written by independent authors and have full access to the KeePass database.
+
+Wrapper
+KeePass has an opensource wrapper, QuicKeepass, that allows the use of KeePass more efficiently on Linux.
+
+Cryptography
+Runtime security
+According to the utility's author, KeePass was one of the first password management utilities to use security-enhanced password edit controls, in this case one called CSecureEditEx.  The author makes several claims regarding the security of the control and its resistance to password revealing utilities; however, the author does not cite or make any references to any third-party testing of the control to corroborate the claims of its security.
+Passwords are protected in memory while KeePass is running. On Windows Vista and later versions, passwords are encrypted in process memory using Windows Data Protection API, which allows storing the key for memory protection in a secure, non-swappable memory area. On previous Windows systems, KeePass falls back to using the ARC4 cipher with a temporary, random session key.
+
+Offline security
+Access to the database is restricted by a master password or a key file. Both methods may be combined to create a "composite master key". If both methods are used, then both must be present to access the password database. KeePass version 2.x introduces a third option—dependency upon the current Windows user.
+KeePass encrypts the database with the AES, Twofish or ChaCha20 symmetric cipher, where the first two are used in CBC/PKCS7 mode. AES is the default option in both KeePass editions, Twofish is available in KeePass 1.x, ChaCha20 is available only in KeePass 2.35 and higher. However, a separate plugin provides Twofish as an encryption algorithm in KeePass 2.x. In KeePass 1.x (KDB database format), the integrity of the data is checked using a SHA-256 hash of the plaintext, whereas in KeePass 2.x (KDBX database format), the authenticity of the data is ensured using a HMAC-SHA-256 hash of the ciphertext (Encrypt-then-MAC construction).
+
+Notable KeePass derivatives
+KeePassX, a multi-platform open source KeePass clone for Linux and macOS, built using the Qt libraries. As of December 2021, KeePassX is no longer actively maintained.
+KeePassXC (KeePass Cross-Platform Community Edition) is a fork of KeePassX written in C++.
+KeeWeb, a cross-platform JavaScript web application using the KeePass database format, desktop version built with Electron.
+
+History
+KeePass at one time had a paste-once functionality, where after a single paste operation, the clipboard would be cleared automatically, but this was removed in version 2.x due to incompatibility and insufficient effectiveness.
+
+See also
+List of password managers
+Cryptography
+
+References
+External links
+
+Official website

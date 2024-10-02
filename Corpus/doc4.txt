@@ -1,0 +1,69 @@
+In computing, a window is a graphical control element. It consists of a visual area containing some of the graphical user interface of the program it belongs to and is framed by a window decoration. It usually has a rectangular shape that can overlap with the area of other windows. It displays the output of and may allow input to one or more processes.
+Windows are primarily associated with graphical displays, where they can be manipulated with a pointer by employing some kind of pointing device. Text-only displays can also support windowing, as a way to maintain multiple independent display areas, such as multiple buffers in Emacs. Text windows are usually controlled by keyboard, though some also respond to the mouse.
+A graphical user interface (GUI) using windows as one of its main "metaphors" is called a windowing system, whose main components are the display server and the window manager.
+
+History
+The idea was developed at the Stanford Research Institute (led by Douglas Engelbart). Their earliest systems supported multiple windows, but there was no obvious way to indicate boundaries between them (such as window borders, title bars, etc.).
+Research continued at Xerox Corporation's Palo Alto Research Center / PARC (led by Alan Kay). They used overlapping windows.
+During the 1980s the term "WIMP", which stands for window, icon, menu, pointer, was coined at PARC.
+Apple had worked with PARC briefly at that time. Apple developed an interface based on PARC's interface. It was first used on Apple's Lisa and later Macintosh computers. Microsoft was developing Office applications for the  Mac at that time. Some speculate that this gave them access to Apple's OS before it was released and thus influenced the design of the windowing system in what would eventually be called Microsoft Windows.
+
+Properties
+Windows are two dimensional objects arranged on a plane called the desktop metaphor. In a modern full-featured windowing system they can be resized, moved, hidden, restored or closed.
+Windows usually include other graphical objects, possibly including a menu-bar, toolbars, controls, icons and often a working area. In the working area, the document, image, folder contents or other main object is displayed. Around the working area, within the bounding window, there may be other smaller window areas, sometimes called panes or panels, showing relevant information or options. The working area of a single document interface holds only one main object. "Child windows" in multiple document interfaces, and tabs for example in many web browsers, can make several similar documents or main objects available within a single main application window. Some windows in macOS have a feature called a drawer, which is a pane that slides out the side of the window and to show extra options.
+Applications that can run either under a graphical user interface or in a text user interface may use different terminology. GNU Emacs uses the term "window" to refer to an area within its display while a traditional window, such as controlled by an X11 window manager, is called a "frame".
+Any window can be split into the window decoration and the window's content, although some systems purposely eschew window decoration as a form of minimalism.
+
+Window decoration
+The window decoration is a part of a window in  most windowing systems.
+Window decoration typically consists of a title bar, usually along the top of each window and a minimal border around the other three sides. On Microsoft Windows this is called "non-client area".
+In the predominant layout for modern window decorations, the top bar contains the title of that window and buttons which perform windowing-related actions such as:
+
+Close
+Maximize
+Minimize
+Resize
+Roll-up
+The border exists primarily to allow the user to resize the window, but also to create a visual separation between the window's contents and the rest of the desktop environment.
+Window decorations are considered important for the design of the look and feel of an operating system and some systems allow for customization of the colors, styles and animation effects used.
+
+Window border
+Window border is a window decoration component provided by some window managers, that appears around the active window. Some window managers may also display a border around background windows. Typically window borders can be used to provide window motion enabling the window to be moved or resized by dragging the border. Some window managers provide useless borders which are purely for decorative purposes and offer no window motion facility. These window managers do not allow windows to be resized by using a drag action on the border.
+
+Titlebar
+The Titlebar is a graphical control element and part of the window decoration provided by some window managers. As a convention, it is located at the top of the window as a horizontal bar. The titlebar is typically used to display the name of the application or the name of the open document, and may provide title bar buttons for minimizing, maximizing, closing or rolling up of application windows. These functions are typically placed in the top-right of the screen to allow fast and inaccurate inputs through barrier pointing. Typically titlebars can be used to provide window motion enabling the window to be moved around the screen by using a drag action. Some window managers provide titlebars which are purely for decorative purposes and offer no window motion facility. These window managers do not allow windows to be moved around the screen by using a drag action on the titlebar.
+Default title-bar text often incorporates the name of the application and/or of its developer. The name of the host running the application also appears frequently. Various methods (menu-selections, escape sequences, setup parameters, command-line options – depending on the computing environment) may exist to give the end-user some control of title-bar text. Document-oriented applications like a text editor may display the filename or path of the document being edited. Most web browsers will render the contents of the HTML element title in their title bar, sometimes pre- or postfixed by the application name. Google Chrome and some versions of Mozilla Firefox place their tabs in the title bar. This makes it unnecessary to use the main window for the tabs, but usually results in the title becoming truncated. An asterisk at its beginning may be used to signify unsaved changes.
+The title bar often contains widgets for system commands relating to the window, such as a maximize, minimize, rollup and close buttons; and may include other content such as an application icon, a clock, etc.
+In many graphical user interfaces, including the Mac OS and Microsoft Windows interfaces, the user may move a window by grabbing the title bar and dragging.
+
+Titlebar buttons
+Some window managers provide titlebar buttons which provide the facility to minimize, maximize, roll-up or close application windows. Some window managers may display the titlebar buttons in the taskbar or taskpanel, rather than in the titlebars.
+The following buttons may appear in the titlebar:
+
+Close
+Maximize
+Minimize
+Resize
+Roll-up (or WindowShade)
+Note that a context menu may be available from some titlebar buttons or by right-clicking.
+
+Titlebar icon
+Some window managers display a small icon in the titlebar that may vary according to the application on which it appears. The titlebar icon may behave like a menu button, or may provide a context menu facility. macOS applications commonly have a proxy icon next to the window title that functions the same as the document's icon in the file manager.
+
+Document status icon
+Some window managers display an icon or symbol to indicate that the contents of the window have not been saved or confirmed in some way: macOS displays a dot in the center of its close button; RISC OS appends an asterisk to the title.
+
+Tiling window managers
+Some tiling window managers provide title bars which are purely for informative purposes and offer no controls or menus. These window managers do not allow windows to be moved around the screen by using a drag action on the titlebar and may also serve the purpose of a status line from stacking window managers.
+
+In popular operating systems
+See also
+Client-Side Decoration
+Display server
+Graphical user interface
+Human interface guidelines
+WIMP (computing)
+Window manager
+
+
+== References ==

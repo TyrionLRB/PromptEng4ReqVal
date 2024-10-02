@@ -1,0 +1,59 @@
+A password manager is a computer program that allows users to store and manage their passwords for local applications or online services such as  web applications, online shops or social media. A web browser generally has a built in version of a password manager. These have been criticized frequently as many have stored the passwords in plaintext, allowing hacking attempts.
+Password managers can generate passwords and fill online forms. Password managers may exist as a mix of: computer applications, mobile applications, or as web browser extensions.
+A password manager may assist in generating passwords, storing passwords, usually in an encrypted database. Aside from passwords, these applications may also store data such as credit card information, addresses, and frequent flyer information.
+The main purpose of password managers is to alleviate a cyber-security phenomenon known as password fatigue, where an end-user can become overwhelmed from remembering multiple passwords for multiple services and which password is used for what service.
+Password managers typically require a user to create and remember one "master" password to unlock and access all information stored in the application. Password managers may choose to integrate multi-factor authentication through fingerprints, or through facial recognition software. Although, this is not required to use the application/browser extension.
+
+History
+The first password manager software designed to securely store passwords was Password Safe created by Bruce Schneier, which was released as a free utility on September 5, 1997. Designed for Microsoft Windows 95, Password Safe used Schneier's Blowfish algorithm to encrypt passwords and other sensitive data. Although Password Safe was released as a free utility, due to U.S. cryptography export restrictions in place at the time, only U.S. and Canadian citizens and permanent residents were initially allowed to download it. As Google Chrome became the most used browser, the built in Google Password Manager became the most used password manager as of 2023 December.
+
+Types
+Password managers come in various forms, each offering distinct advantages and disadvantages. Here's a breakdown of the most common types:
+
+Browser-based password managers
+These are built directly into web browsers like Chrome, Safari, Firefox, and Edge. They offer convenient access for basic password management on the device where the browser is used. However, some may lack features like secure syncing across devices or strong encryption.
+Local password managers
+These are standalone applications installed on a user's device. They offer strong security as passwords are stored locally, but access may be limited to that specific device. Popular open-source options include KeepassXC, KeePass and Password Safe.
+Cloud-based password managers
+These store passwords in encrypted form on remote servers, allowing access from supported internet-connected devices. They typically offer features like automatic syncing, secure sharing, and strong encryption. Examples include 1Password, Bitwarden, and Dashlane.
+Enterprise password managers
+Designed for businesses, these cater to managing access credentials within an organization. They integrate with existing directory services and access control systems, often offering advanced features like role-based permissions and privileged access management. Leading vendors include CyberArk and Delinea (formerly Thycotic).
+Hardware password managers
+These physical devices, often USB keys, provide an extra layer of security for password management. Some function as secure tokens for account/database access, such as Yubikey and OnlyKey, while others also offer offline storage for passwords, such as OnlyKey.
+
+Vulnerabilities
+Weak vault storage
+Some applications store passwords as an unencrypted file, leaving the passwords easily accessible to malware or people attempted to steal personal information.
+
+Master password as single point failure
+Some password managers require a user-selected master password or passphrase to form the key used to encrypt passwords stored for the application to read. The security of this approach depends on the strength of the chosen password (which may be guessed through malware), and also that the passphrase itself is never stored locally where a malicious program or individual could read it. A compromised master password may render all of the protected passwords vulnerable, meaning that a single point of entry can compromise the confidentiality of sensitive information. This is known as a single point of failure.
+
+Device security dependency
+While password managers offer robust security for credentials, their effectiveness hinges on the user's device security. If a device is compromised by malware like Raccoon, which excels at stealing data, the password manager's protections can be nullified. Malware like keyloggers can steal the master password used to access the password manager, granting full access to all stored credentials. Clipboard sniffers can capture sensitive information copied from the manager, and some malware might even steal the encrypted password vault file itself. In essence, a compromised device with password-stealing malware can bypass the security measures of the password manager, leaving the stored credentials vulnerable.
+As with password authentication techniques, key logging or acoustic cryptanalysis may be used to guess or copy the "master password". Some password managers attempt to use virtual keyboards to reduce this risk - though this is still vulnerable to key loggers that take the keystrokes and send what key was pressed to the person/people trying to access confidential information.
+
+Cloud-based storage
+Cloud-based password managers offer a centralized location for storing login credentials. However, this approach raises security concerns.  One potential vulnerability is a data breach at the password manager itself. If such an event were to occur, attackers could potentially gain access to a large number of user credentials. A 2022 security incident involving LastPass exemplifies this risk.
+
+Password generator security
+Some password managers may include a password generator. Generated passwords may be guessable if the password manager uses a weak method of randomly generating a "seed" that all passwords generated by this program. There are documented cases, like the one with Kaspersky Password Manager in 2021, where a flaw in the password generation method resulted in predictable passwords.
+
+Others
+A 2014 paper by researchers at Carnegie Mellon University found that while browsers refuse to autofill passwords if the login page protocol differs from when the password was saved (HTTP vs. HTTPS), some password managers insecurely filled passwords for the unencrypted (HTTP) version of saved passwords for encrypted (HTTPS) sites. Additionally, most managers lacked protection against iframe and redirection-based attacks, potentially exposing additional passwords when password synchronization was used across multiple devices.
+
+Blocking of password managers
+Various high-profile websites have attempted to block password managers, often backing down when publicly challenged. Reasons cited have included protecting against automated attacks, protecting against phishing, blocking malware, or simply denying compatibility. The Trusteer client security software from IBM features explicit options to block password managers.
+Such blocking has been criticized by information security professionals as making users less secure. The typical blocking implementation involves setting autocomplete='off' on the relevant password web form. 
+This option is now consequently ignored on encrypted sites, such as Firefox 38, Chrome 34, and Safari from about 7.0.2.
+
+See also
+List of password managers
+Password fatigue
+Password management
+Security token
+Smart card
+Cryptography
+
+References
+External links
+Password manager at Curlie
