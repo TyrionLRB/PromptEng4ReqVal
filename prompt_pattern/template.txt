@@ -1,0 +1,1 @@
+Read the following requirement with a masked word and predict 15 words, which could fit in the masked slot given the context of the sentence.
