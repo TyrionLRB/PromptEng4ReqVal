@@ -1,0 +1,268 @@
+Not in all translations translated help files and tutorials are available
+The database appears translated in the new language
+More about KeePass you can find out at http://keepass
+User changes the fields he wants in the form
+User types another master key
+For the following features, use cases are not included
+REQ-27:	In case of lost master password or key file, the database never unlocks again
+• First there is presented an overall view about KeePass and then all features and functions are analyzed in detail
+They just use the database for organizing their data and to keep them safe
+Finally there are configuring settings of automatically generated passwords for new entries so that a random password will automatically be created by KeePass when a new entry is wanted
+On the main database window are appeared entries from a selected group
+Data are organized in groups and subgroups in the order that user wants and finds effective
+1 Basic Data Flow
+A message is appeared to confirm the delete
+• In chapter 3 most important features are presented with detailed description, use cases and requirements
+Its purpose is to solve a problem that really bothers many people today when they have to choose from memorizing a lot of passwords to be secure or to use every time the same one so they won’t forget it but risk be found out by others
+2 Alternative Data Flows
+A message appears “the repeated password must be identical with the password
+The main window opens
+The main database window consists of the main menu bar with file, edit, view, tools and help
+REQ-16:	An entry must be selected before it is duplicated
+4 	Alternative Data Flow 4 2a
+The group/subgroup is deleted
+A key file is a file that locks the database
+Nothing appears in the main window
+This feature allows the user to change or modify an existing entry
+• Command Line Options
+Permission is granted to use, modify, and distribute this document
+User selects to delete the group/subgroup
+When TAN are created, they appear as typical entries which in the field title contain “<TAN>” so that KeePass will know it’s a TAN
+The password generator creates random passwords every time an entry is created
+Advanced Encryption Standard (AES / Rijndael) 128 bits	256 bits Twofish	128 bits	256 bits
+Testers: in order to have an exact list of the features and functions that have to respond according to requirements and provided diagrams
+REQ-30:	File formats only specify a low-level layout of stored data
+It can be transferred also in a USB stick with no additional configuration needed
+• System administrators: administrators working on computers that support a lot of accounts and personal data for other users
+REQ-32:	Title, username or URL cannot be changed in a TAN entry
+All data from the group/subgroup appear
+Those groups can be modified whenever
+Nothing appears in the main window
+The workspace can be locked manually as well by selecting this option from File menu
+The database can be unlocked with a master password, a key file or both of them
+User selects print from file menu
+User fills in the password field
+In case the header of the database, which is the first few bytes, is corrupted, again the repair functionality won’t help
+So the user cannot use a combination of them to unlock the database
+1 Basic Data Flow
+9 Find Group/Subgroup	15
+User opens KeePass and selects to add new group/subgroup
+2 Alternative Data Flows
+Search results appear in the main window
+2 	Alternative Data Flow 2 3a
+User continues working after he saves the database
+Its purpose is to keep all of the user’s passwords, data, email accounts, usernames and URLs stored in a very secure, encrypted database, protected by a Master Password
+There are available translations in Arabic, Brazilian, Bulgarian, Catalan, Chinese (Simplified and Traditional), Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Lithuanian, Macedonian, Malay, Norwegian, Polish, Portuguese, Romanian, Russian, Serbian, Slovak, Spanish, Swedish, Turkish and Ukrainian
+That provides security in a case a password is copied and not pasted anywhere so no one can find it out by pasting later
+2 Communications Interfaces	25
+All of them are explained better further down
+To avoid this kind of situations, backups can be done regularly
+There are available plug-ins which add more import capabilities and formats and those are: File format CSV and File format XML
+3	Functional Requirements Not exists
+2 Alternative Data Flows
+4 Operating Environment	6
+The user also can print all data in order to keep them with him even when a computer is not available
+The generation can be based on character sets, patterns or can be created according by rules
+This is project’s official website where you can find links to all above and also find features available for downloading such as language translations and plug-ins
+Then a window appears which prompts the user to write a sequence of characters (letters and numbers) from one character to 200 (or more)
+This feature allows user to find data into a specific group/subgroup
+3 User Classes and Characteristics
+com and the project’s official website at http://keepass
+1 Basic Data Flow
+The help file or URL field features or Autotype is opened
+2 Alternative Data Flows
+User wants to exit KeePass
+3 Alternative Data Flow 3
+While working on the database, the user has the option to print data from his database
+In addition to that, KeePass supports all registered protocols that Internet Explorer supports
+2 Alternative Data Flow 2
+2 Alternative Data Flows
+If in the meanwhile it is not pasted anywhere, it must be copied again
+KeePass should run perfectly on older releases without any features limitations or data loss
+The language file downloads and can be found at the list with available languages in the language menu
+REQ-18:	An internet connection and a browser are required in order to download new
+A message “invalid/wrong key” appears 4c
+html) and can be distributed under those terms
+The database can be opened and closed whenever user wants it
+By downloading KeePass Password Safe, the user also gets:
+User leaves the find field empty
+This can be done by selecting an entry and clicking duplicate entry
+User selects some more fields and/or unselects some others
+User opens KeePass and changes his data
+• Database – New, Open, Close, Save, Print, Search, Import, Export
+There is the ability to import data from CSV files, code wallet, password safe and password vault
+2 Alternative Data Flow 2
+1 Alternative Data Flow 1
+Nothing more than these is required for a fully functional KeePass
+2 Alternative Data Flow 2
+KeePass Password Safe is a small system that can be easily transferred from computer to computer by a simple USB stick
+The main window appears
+KeePass uses Global Hot Key to restore KeePass main window and Limit to single instance option to run only one instance of KeePass at a time
+Not all fields are required for an entry to be created
+4 Alternative Data Flow 4
+1 Basic Data Flow
+When a user wants to delete an existing group/subgroup he can do this by selecting Delete group/subgroup from the edit menu
+When he does this, a window opens which is actually a form
+When choosing to open a database a user is transferred to his documents where he navigates to find the database he wants
+A message is appeared asking if he wants to save the database before locking
+3 Alternative Data Flow 3
+3 Software Quality Attributes	26
+1 Basic Data Flow
+When this is done the new entry is added in the same group were the first was
+User types Master Password
+Every user has a unique Master Key which can be simple or composite and its combination opens uniquely the database
+When a function is performed like adding, editing or deleting, the active window is the one performing the action
+User selects save database
+In both algorithms every time the user saves a database, a random 128-bit initialization vector is generated
+• The second method is to select an entry and press Ctrl+V
+• Composite Master Key
+KeePass Password Safe provides the user with the following functions:
+User selects save as
+Once a master key is created for a database, it is always required
+When a password is copied for any reason, (e
+2 Alternative Data Flows
+2 Product Features	4
+2 Alternative Data Flow 2
+User returns on the main window
+This feature allows the user to save any changes or updates he has performed to his database
+1 Alternative Data Flow 1
+3 Alternative Data Flow 3
+3 Intended Audience and Reading Suggestions
+This feature gives the ability to user to import/export files from/to database
+This feature allows switching back from an application to KeePass
+Once this is done the user is free to access his data
+Under main menu there is a toolbar with shortcuts to most used functions of KeePass
+They can be added to user’s database by using TAN wizard and can contain all letters and numbers
+User selects yes and exits, or no and exits or cancel and return to database
+• The first method is to use the context menu command and perform auto-type while the entry is selected
+3 Save Database	10
+1 Basic Data Flow
+REQ-23:	In case a space is found in the path, it must be enclosed into quotes
+This password may contain letters (big and small) and numbers
+5 Design and Implementation Constraints
+KeePass as referred previously uses NET/Mono and Win32 (MS Windows) interfaces
+2 Safety Requirements	25
+After all that user documentation is presented and will provide you with more details about each feature’s technology
+External Interface Requirements	25
+A whole sentence can be used with more than 100 characters
+More about this feature and examples for using it can be found at help contents in KeePass
+It is the first thing a user must do to begin using KeePass
+User unselects all fields
+At this time the main database window is inactive and cannot be accessed unless the current active window is closed
+REQ-31:  Global hot key cannot be changed
+All of them are analyzed with more details in this document
+All it takes is unpacking from the Zip package
+User fills in the form, as many fields as he wants, from 1 to 9
+New database is saved and opens with the same master password
+A message is appeared “Add a name for the group/subgroup”
+The modified entry is saved in the selected group
+User selects no (restart later)
+1 Alternative Data Flow 1
+The rest of the document is divided into chapters for better understanding
+6 User Documentation	7
+User opens KeePass and selects a group/subgroup
+User types the new name and has the option to select an image
+2 Alternative Data Flows
+No entry is deleted
+The URL field supports various special protocols and placeholders and can be used for Standard capabilities where URL field can execute valid URLs for which a protocol handler is defined
+The global hot key is Ctrl+Alt+K
+According to restriction rules that are applied every time
+The user can select between a number of translations that are available at KeePass website
+• When writing this document it was inherited that all requirements have the same priority
+A master key is a password the user creates
+The access returns to main window
+The user can create an exact copy of an entry
+REQ-7:	A name is required in order for the new group/subgroup to be created
+3 Software Quality Attributes
+New groups and subgroups can be added easily and can be deleted the same way
+KeePass offers the ability for passwords and data to be appeared behind asterisks when the user wants it
+The user can delete an existing entry by selecting it and then by clicking delete entry
+He can fill in fields like: group where the entry will be added, title, user name, password, repeat password, URL, notes, expiration date and attachment
+2 Alternative Data Flow 2
+There is the ability to search in the database for usernames, groups, passwords, URLs, notes and titles
+• KeePass is developed under GNU General Public License version 2 or later (copy from http://www
+Master Password confirmation: the user retypes Master Password
+A message appears “Are you sure you want to delete the selected entry?”
+1 User Interfaces	25
+Doing this he will be transferred at KeePass website and choose the language he wants for downloading
+User returns on the main window
+Documentation writers: to know what features and in what way they have to explain
+There isn’t any standard password database format and every password manager uses its own file format
+This feature adds a new entry on the database
+• In chapter 5 requirements about safety and performance are presented
+TANs can be passwords that provide security because they can never be used for more than once time
+When a database is opened, the user can access his passwords, organize them into new groups and subgroups, delete and add entries and so much more
+1 Alternative Data Flow 1
+This feature allows user to change a name given to a group/subgroup
+This document includes software requirements for KeePass Password Safe, release number 1
+Passwords that are stored in the database can be copied to website accounts and applications with security and without retyping them again
+1 Basic Data Flow
+Those are: new, open, save, add entry, edit/view entry, delete entry, copy username to clipboard, copy password to clipboard, find in database and lock workspace
+The main database window opens
+User opens KeePass and select Open->Database
+When this happens, a list of data types that can be printed are shown and the user can select the data to be printed
+• KeePass is a project that once uninstalled from a computer, leaves no trace behind
+There is no recovery
+This feature allows user to pass a file patch in the command line so that KeePass will open it immediately after start up
+3 Alternative Data Flow 3
+2 Alternative Data Flows
+The access returns to main window
+4 Alternative Data Flow 4
+An empty report is printed
+Specific Technologies used in KeePass Password Safe:
+• In order to keep the user’s data fully protected, 2 very secure algorithms are used:
+The key file is present
+Then follow user classes and characteristics, operating environments that KeePass supports as well as design and implementation constraints
+3 Alternative Data Flow 3
+User writes his private Master Password and/or selects Key File
+• Advanced end users: users that are familiar with programming and can personalize their database by creating auto-types, using command line options and generally can use features and maybe expand their use by adding more functions
+• All the bytes needed for the Initialization Vector, the master key salt, etc are generated via pseudo- random sources: current tick count, performance counter, system date/time, mouse cursor position, memory status, active window focus handles, window message stack, process heap status, process startup information and several system information structures
+REQ-28:	There is no backdoor or key that unlocks all databases
+• Group/Subgroup – Add, Modify, Delete, Find
+1 Alternative Data Flow 1
+This document is intended for
+1 Basic Data Flow
+REQ-19:	The prefix “Auto-Type:” is required in front of each sequence REQ-20:	 Sequence’s length must not be more than a line (59 characters) REQ-21:	 If two auto-types are referred in one note field, only the first is used
+The sequence must be prefixed with “Auto-Type” and length of one line
+The database file location is passed as argument in the command line
+copy to an application, account, and website) it remains in the memory for only 10 seconds
+If the file is lost and there are no copies of it, all data are gone forever and database never unlocks again
+This feature allows the user to open an existing database
+User does not type anything
+2 Alternative Data Flow 2
+Using KeePass the administrator can save all data with no risk of leak to third persons
+All these together form the Composite Master Key and are all required in order to open the database
+17 Composite Master Key
+your bank account even if he finds out that password
+Changed and be identical with password field
+2 Alternative Data Flow 2
+There is also the ability for a onetime key creation to be used once in a transaction without the risk of reused by others for any reason
+KeePass uses TAN-Transaction Authentication Numbers for even more security
+zip and release notes witch describe what has changed and what has been added
+1 Alternative Data Flow 1
+KeePass consists of a database which contains data for one or more users
+The user defines the sequences which can be sent to any other open window like browsers or login accounts
+In case the user forgets it, the database can never be opened again by any way
+Prepared by Elia Kouzari
+User opens KeePass and selects to delete an existing entry
+This requirement document contains general information about KeePass, main classes and use cases, functions, features and special technologies
+In the diagram below there are the main components of the system, subsystem interconnections and external interfaces to help you understand the main idea of KeePass
+REQ-2:	Master Password has no limits in length
+Nothing appears in the main window
+A new entry can be added in any group or subgroup and it contains title, username, password, URL and notes
+17 Composite Master Key	22
+This feature allows user to choose one of the language translations that are available in KeePass
+There is also available generating passwords that follow rules which are determined further down on this document
+The database opens when this file is present
+The new entry is added in the selected group
+In order for that to happen, he must have chosen first a group/subgroup
+Last but not least, the database can be imported and/or exported from/to the Internet
+More specifically fields that can be selected for printing are: Backup entries, which contain entries in the back up group, password groups, group tree, title, username, password, URL, notes, creation time, last access, last modification, expires, icon, UUID and attachment
+2 Open Database	9
+2 Alternative Data Flow 2 3a
+11 View/Edit Entry	17
+REQ-33:	When a TAN is used, it expires automatically and can never be used again
+Its main function is the determination of the master password that will unlock the database from now on
+Table of Contents	ii
+Advanced end users, end users/desktop and system administrators: in order to know exactly what they have to expect from the system, right inputs and outputs and response in error situations
+This can be done by selecting view/edit entry

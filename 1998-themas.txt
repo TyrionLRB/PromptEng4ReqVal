@@ -1,0 +1,210 @@
+To clarify these conditions, the following definitions will be used:
+Input To Transforms (None)
+This procedure shall read the initialization file and establish the overtemperature value from the data in that file
+IEEE	Institute of Electrical and Electronic Engineers LO	Lower Overtemperature Value
+This function is mainly for the use of the supervisor of the THEMAS system to maintain an efficient
+Next Higher Dictionary Where Used Operational Parameters
+2 Inputs Operational Parameters
+Determine Status of All H/C Units Stack Request
+Each beep shall have a one-half second duration
+When the system detects a need for heating or cooling, this defines the thermostat and heating or cooling unit to turn on or off
+Any communication with the thermostats and heating and cooling units shall be done through the interface to these units
+2 Inputs Approved H/C Request
+Determine Status of All H/C Units
+The general constraints of the THEMAS system focus on the functionality provided by the external devices connected to it
+Output From Transforms Validate Temperature
+Contains the formatted report information
+If this condition is true, then the module shall output a request to turn off both the heating unit and the cooling unit
+Prepared By THEMAS Team
+Denotes the condition when the reported temperature has exceeded the triggering value indicating a heating or cooling unit should be requested
+Generate Unit Unavailable Event THEMAS Context Diagram
+This request shall include the designation of the heating or cooling unit and a flag to indicate whether that unit is to be turned on or off
+2 Thermostat Hardware Assumptions
+Next Higher Dictionary Where Used (None)
+3 Initialize System	2-2
+This system is intended to be used by people that maintain the heating and cooling systems in a building
+4 Set Trigger Values (SRS-004)	3-2
+This condition the need for a heating or cooling unit to be turned on
+TD	Trigger Delta Value
+A temperature at or beyond this delta indicates the thermostat has reached a critical value where the heating or cooling unit cannot satisfy the temperature setting value
+A temperature setting value that is received from an individual thermostat shall be compared to the valid temperature range values
+Input To Transforms Generate Event Data
+Next Higher Dictionary Where Used Operational Parameters
+Defines the thermostat that requested heating or cooling, but was denied the request due to current system loading
+The following documents shown form a part of this specification
+If LO < = T < = UO, then this process shall output the temperature status
+2 Inputs Initialization Data
+The THEMAS system shall control the heating and cooling units that are designated as part of the THEMAS system
+If the current temperature value is strictly less than the lower value of the valid temperature range or if the received temperature value is strictly greater than the upper value of the valid temperature range, then the THEMAS system shall identify the current temperature value as an invalid temperature and shall output an invalid temperature status
+4 System Reports	2-2
+Each quadrant of each floor shall have a thermostat which is to be used to provide temperature data to the THEMAS system
+0 provide an overview of the entire Software Requirements Specification
+Input To Transforms (None)
+Defines the heating or cooling unit that was denied a request to be turned on
+Input To Transforms Generate H/C Request
+Output From Transforms Determine Utilization Generate H/C Request
+Input To Transforms (None)
+The supervisor shall be able to select one of the thermostats and select a value for the current temperature from a list of valid temperatures
+Each subsection describes the software requirement for that individual software component of the THEMAS system
+If assumptions or dependencies about the hardware were made, they are stated in this section of the SRS
+Condition 1: LT < = T < = UT
+1 Functional Requirements	3-1
+LO : Lower Overtemperature Value = TSET - OD UO : Upper Overtemperature Value = TSET + OD
+This document is prepared in accordance with the American National Standards Institute (ANSI) / Institute of Electrical and Electronics Engineers (IEEE) Guide to Software Requirements Specifications, ANSI/IEEE STD 830-1984
+Establish Valid Temperature Range Initialize Operational Parameters Load H/C Unit Definitions
+4 Outputs Approved H/C Request
+The heating/cooling unit shall have the capability of being turned off and on by the supervisor of the THEMAS system
+Temperatures that do not exceed these limits shall be output for subsequent processing
+The trigger values shall reside in an initialization file
+3 Generate H/C Request (SRS-013)	3-7
+Information from the initialization file that include the thermostat definitions, heating and cooling definitions, temperature limits, and trigger values
+If this condition is true, then this module shall output a request to turn on the heating unit if LO < = T < LT or the cooling unit if UT < T < = UO
+6 Establish Valid Temperature Range (SRS-006)
+2 Inputs Unit Unavailable
+ANSI/IEE Guide to Software	ANSI/IEEE STD 830-1984 Requirements Specification
+Defines the upper and lower limits for a reported temperature value
+The overtemperature values shall reside in an initialization file
+Determine Status of all H/C Units
+Next Higher Dictionary Where Used (None)
+The maximum number of heating or cooling units that can run concurrently shall reside in an initialization file
+Denotes the condition when an valid temperature is reported from a thermostat
+Defines each discrete heating and cooling unit in the system
+Output From Transforms Determine Temperature Status
+Next Higher Dictionary Where Used (None)
+The THEMAS system shall ensure the temperature reported by a given thermostat shall not exceed a maximum deviation value of 3 degrees Fahrenheit
+This document is intended for use by the Design Requirements team, Principle Software Architect, and other parties interested in the development and progression of THEMAS
+Appendix B contains the Traceability Matrix
+2 Inputs Operational Parameters H/C Request
+After selecting one of the months, the system shall generate the ASCII report file
+4 Outputs H/C Request
+Statement of Work	THEMAS_SOW_001
+The only process that interacts with the system reports function is the generate event data process
+Input To Transforms Generate Event Data
+The THEMAS system shall maintain the ON/OFF status of each heating and cooling unit
+4 Outputs Operational Parameters
+For each thermometer, the ratio of the number of requests for a heating and cooling unit that was granted to the number of requests for a heating or cooling unit that was denied
+The unique identifier associated with each thermostat in the system
+4 Outputs Invalid Temperature Valid Temperature
+This process shall first determine a known state of all the heating and cooling units by issuing a request to turn off all the units
+When the THEMAS system detects a request for an alarm, this process shall detect which of the two alarms are being requested
+All the internal process communications shall be designed to operate on this operating system
+Each time an alarm is requested, an alarm event shall be recorded
+2 Determine H/C Mode (SRS-010)	3-5
+This process shall recognize the values for the requested heating or cooling unit and the ON or OFF status that is being requested
+APPENDIX B - DATAFLOW DIAGRAMS
+1 Determine Status of All H/C Units (SRS-011)	3-6
+0 of this document gives a general description of the THEMAS system
+Load H/C Unit Definitions
+It will contain functional and performance requirements, design constraints, attributes and external interface requirements for the THEMAS system
+Input To Transforms (None)
+The supervisor’s interface shall display the available thermostats and their individual current temperature settings
+Copies of other specifications may be obtained from Barry Scott, THEMAS project Manager
+The THEMAS shall provide the ability for the supervisor to select between two different types of reports: 1) the operational history of the THEMAS system for the past twelve months and 2) a statistical summary for any selected month
+Defines the thermostat and heating or cooling unit to turn on or off
+3 Definitions, Acronyms, and Abbreviations
+Establish Valid Temperature Range
+If the statistical report is selected, the THEMAS system shall present the operator with a list of available months from which to make a selection
+4 Outputs H/C Request
+The system shall read this file and the definitions shall be derived from the initialization data in the file
+Defines a request to generate the signal to turn on or off a heating or cooling unit resulting from an approved request for a heating or cooling unit
+1 Determine Temperature Status (SRS-009)
+In order to provide an operational history and statistical reports, this process shall generate an event each time a change is made to the status of a heating or cooling unit
+LT : Lower Trigger Value = TSET - TD UT : Upper Trigger Value = TSET + TD
+The functions of the software for the system are contained in the following paragraphs
+This procedure shall read the initialization file and establish the trigger value from the data in that file
+4 Outputs Utilization Parameters
+This control signal shall also provide an indication of the unit’s status at the requesting thermostat
+Input To Transforms Generate Event Data
+Once a request to turn on or off a heating or cooling unit, the THEMAS system shall provide the necessary control signal for the unit
+4 Outputs Operational Parameters
+3 Heating/Cooling Hardware Assumptions
+3 Generate H/C Request (SRS-013)
+Output From Transforms Generate H/C Signal
+Next Higher Dictionary Where Used (None)
+There are two events that shall result in an alarm condition: 1) an invalid temperature value is reported from a thermostat, or 2) the reported temperature has exceeded the defined limits
+Set Overtemp Values THEMAS Context Diagram
+8 Generate Event Data (SRS-016)
+Turn off H/C Units
+This procedure shall realize the thermostat and heating or cooling information and use this information to generate a specific system event
+The following subsections of Section 1
+The outgoing information that starts the entire THEMAS system is: clear all heating/cooling signals, send thermostat definitions, send utilization parameters, send trigger values, send overtemperature values, and send valid temperature range
+This module shall process both types of data
+Generate Unit Unavailable Event Stack Request
+This Software Requirements Specification (SRS) specifies the qualification requirements for The Energy Management System (THEMAS)
+6 Establish Valid Temperature Range (SRS-006)	3-3
+It is assumed that the thermostat is capable of returning the current temperature and the current desired temperature setting to the THEMAS system
+Next Higher Dictionary Where Used (None)
+When an event occurs, the THEMAS system shall identify the event type and format an appropriate event message
+The function then goes through the process of determining temperature status
+The displaying of the current status of the system to the supervisor should not contain excessive information which could confuse the supervisor
+This event shall contain the identification of the heating or cooling unit whose status is being changed
+Input To Transforms (None)
+Output From Transforms Change Thermostat Setting
+The THEMAS system shall use the information contained in the initialization data file to determine which heating and cooling units are part of the THEMAS system
+If the settings reflect a need for a heating or cooling unit to be turned on, the process shall issue a request to turn on the appropriate unit
+APPENDIX A - TRACEABILITY MATRIX
+2 Inputs Temperature Trigger Exceeded
+Next Higher Dictionary Where Used Report Data
+Output From Transforms (None)
+Output From Transforms (None)
+Load Thermostat Definitions Load Utilization Parameters Set Trigger Values
+Technical society and technical association specifications are generally available for reference from libraries
+5 Assumptions and Dependencies
+This series of beeps shall continue until the supervisor manually resets the alarm through the supervisor’s interface window
+Allowed Meanings String + Timestamp
+Input To Transforms THEMAS Context Diagram Validate Temperature
+1 Load H/C Unit Definitions (SRS-001)	3-1
+4 Outputs Operational Parameters
+This condition indicates the thermostat’s current temperature setting is satisfied
+Input To Transforms (None)
+The Energy Management System SOFTWARE REQUIREMENTS SPECIFICATION
+Then, it shall check all the thermostats and determine if any thermostat’s settings require a heating or cooling unit to be turned on back on
+2 Inputs Initialization Data
+The THEMAS system shall limit the number of heating or cooling units that may be running simultaneously
+All four sections have an associated software configuration item; all except the System Reports have an associated hardware configuration item
+The percentage of time each heating and cooling unit was on for each day of that month
+Describes each normal operational event that occurs in the system
+1 Initialize Operational Parameters	3-1
+Next Higher Dictionary Where Used (None)
+This SRS only specifies the requirements dealing with the software portion of the system
+1 Determine Status of All H/C Units (SRS-011)
+In order to provide an indication of the status of the heating or cooling unit back to the requesting thermostat, this procedure shall output the status information of the heating or cooling unit
+4 Outputs Alarm Data Alarm Events
+This process shall determine which alarm event is to be generated
+Output From Transforms Generate Alarm Data
+Denotes the condition when an erroneous temperature is reported from a thermostat
+It is assumed that the heating/cooling unit is incapable of returning its current off/on status to the THEMAS system
+Input To Transforms (None)
+4 Outputs Heating Unit Signal Cooling Unit Signal Unit Status
+This system event shall consist of a description of the event type (a request denied event), a designation of the thermostat that made the request, and a designation of the heating or cooling unit that was not turned on
+Output From Transforms Validate Temperature
+OD	Overtemperature Delta Value
+Otherwise, the THEMAS system shall realize the value for that thermostat’s temperature setting
+This information shall be recorded in a Microsoft® Access® database that shall reside on the supervisor’s computer
+2 Initialize System (SRS-007)
+Next Higher Dictionary Where Used (None)
+THEMAS	The Energy Management System TSET	Current Temperature Setting UT	Upper Trigger Value
+2 Determine Utilization	2-1
+When a request to turn off a heating or cooling unit is received, this process shall check the queue of waiting heating and cooling requests
+Input To Transforms (None)
+1 Operating System Assumptions
+2 Load Thermostat Definitions (SRS-002)
+These identifiers shall be read from the initialization file and loaded into the THEMAS system during the initialization process
+Output From Transforms (None)
+2 Generate Unit Unavailable Event (SRS-012)
+The THEMAS system shall control the heating and cooling units that are defined as part of the THEMAS system
+Next Higher Dictionary Where Used (None)
+ANSI	American National Standards Institute C	Cooling
+APPENDIX C - DATA DICTIONARY
+When a signal is sent to a heating or cooling unit, no signal shall be available to allow the THEMAS system to determine if the signal sent to the unit was realized by the unit
+Defines how many heating and cooling units that can run simultaneously
+2 Inputs Initialization Data
+Input To Transforms Generate Alarm Data
+When a request for a heating unit or cooling to be turned is denied, an event shall be generated and the THEMAS system shall record that event
+The SRS shall give a prototype of a simulated thermostat for verification and validation of THEMAS reliability
+The scope of this document is confined to only the software requirements for the THEMAS system
+Output From Transforms (None)
+APPENDIX C - DATA DICTIONARY
+For each event that is generated, the THEMAS system shall identify each event and generate the appropriate event data
+All data sent by the thermostat is in the correct format for the THEMAS system to use
+2 Thermostat Hardware Assumptions	2-3

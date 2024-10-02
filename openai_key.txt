@@ -1,0 +1,2 @@
+Hier OpenAI Key reinkopieren.
+Please copy your OpenAI Key in this text file.

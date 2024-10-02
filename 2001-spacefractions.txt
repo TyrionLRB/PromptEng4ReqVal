@@ -1,0 +1,84 @@
+A friendly robotic sidekick will assist with general usability issues and give hints towards the correct response
+There are no additional requirements at this time
+There is an option to skip the introduction, if desired
+1 External Interface Requirements
+She has been teaching the sixth grade for six years now
+In addition, the player's exact score will be given with a customized message
+Bobby is a sixth grade male student learning fractions who is very competitive
+A menu that displays a brief section offering help on playing the game, and provides a link to the main game component and the Denominators' web page
+A main menu, including a brief help section
+The user can click on the corresponding button to begin the game or follow the link to the Denominators' web page
+The user will respond to questions by clicking on the desired answer from a set of choices
+The last scene will be determined by the user's response on certain critical questions that impact the story's plot, and an option to try again will be presented
+1 Purpose of this Document
+- Alice, a sixth grade female student learning fractions who does not like to use computers; - Bobby, a sixth grade male student learning fractions who is very competitive; and
+- The product will be available over the Internet via the S2S website
+Each question will be updated on a separate page, and the user will click a button to progress between these pages
+Upon starting the program, the user is taken through a brief introductory movie to provide background story and information that will help them complete the fraction questions
+At that time, the user will be forwarded to the game sequence component or the Denominators' web page, depending on the button selected
+He is only somewhat interested in learning about fractions
+He enjoys playing competitive sports and using computers, especially to play games
+Although she has used computers for email and games, she considers computers to be boring
+After the button is clicked, the component will check that the inputted data is complete and makes sense in the context of the updated question
+Andrea Brooks of Pecan Springs Elementary School
+For example, using appropriate sub-
+This component will wait until the user selects a button
+The SRS will include the details of the project's requirements, interface, design issues, and components
+- Since the product requires a Flash-supporting browser, the external interface will depend
+- Maintainability is a primary goal for this project
+Because Flash movies do not have to be fully downloaded to play, the main game can be played within a few minutes with a regular modem connection to the Internet
+However, she is really interested in learning fractions and enjoys working with other students
+Otherwise, they will watch the movie to its completion and be taken to the main screen
+A series of fraction questions (testing arithmetic, equivalence, graphical interpretation,
+These questions will test the user's knowledge of basic fraction operations and will be presented as a multiple-choice questionnaire
+This information must be saved in a file on the web server where the game is hosted and will be easily edited through simplified administrative screens
+Alice is a sixth grade female student learning fractions who does not like to use computers
+The user will be given a problem and then must click the correct solution
+5 General Constraints, Assumptions, Dependencies, and Guidelines
+Either way, the user will be encouraged to try again and further better their fraction skills
+The product will consist of Flash movies linked together to form a web-based game: there will be a small introductory movie (~200KB), a main menu movie (~100KB), and a main game movie (1-2MB)
+Section three is a detailed requirements specification targeted toward technical designers
+- Hypertext Markup Language: the formatting language used to describe web pages
+- Software Requirements Specification: this document
+She navigates to the updater page, which asks for a password
+Only one person can use a single instance of the product
+The definitions section is intended to assist the technical designers as well as the client in clarifying the terms used throughout the document
+The Space Fractions project is a learning tool created to help improve fraction-solving skills for sixth-grade students
+A screen offering a conclusion to the game's plot based on performance at certain critical points in the game sequence, where the user's score is displayed and the user is given a chance to exit or return to the main menu
+If a mouse click is received, this component will terminate the movie and forward the user to the main menu component
+on the configuration of the browser
+- This program does not require any new hardware
+He particularly likes to play games where he can excel
+Moreover, these students (as well as the teacher) are assumed to have basic computer and Internet skills that will enable them to use this software
+The information and interface will be effective so that Bobby will easily recognize what to do to start the game immediately and Alice will have no problems navigating through the help section to understand the rules and gameplay
+In addition, a component accessible over the World Wide Web will allow the series of fraction questions to be updated by an administrator of the game
+The user will follow a number of links to World Wide Web documents
+As the target users are in the sixth grade, this product will be as graphically oriented and appealing as possible
+Detailed descriptions of these users follow
+Output will be sounds and animations through Flash movies to acknowledge success or failure in answering the fraction questions
+The "Space Fractions" game will have the following functional components:
+However, their score will not count this question as being answered correctly
+Due to the relatively small size of the introductory and main menu movies, they can be downloaded in approximately one minute with a modem connection
+The user can select either to end the game or return to the main menu via mouse clicks
+At the end of the game, students will be given feedback based on their game scores
+1 User Personas and Characteristics
+There is no explicit interaction with the client's hardware
+Therefore, various environments may yield different
+The administrator of the program may wish to design a custom game complete with custom fraction questions
+The purpose of the document is to describe the purpose and functionality of the software product requested by Ms
+No other input is recognized
+After receiving the user's input, the component will act accordingly
+- Able to be run over the web, without any permanent files on the user's computer
+- Student to Student: the designation representing the collective efforts of several hundred University of Texas Computer Science students taking Software Engineering with Dr
+The component opens the specified S2S product in a separate window
+scenes in the main Flash game to split up the code will allow for easy alteration at a later date
+A description of the functional requirement and its reason(s)
+A movie is displayed on the screen
+- If the incorrect answer is selected, this component will inform the user of this and give them another chance to answer the question
+- Reliability will be ensured by extensive testing by the team members and mentors, if
+An introductory movie to set up the storyline
+The umbrella will be a web-based menu system allowing the user to choose between the games
+The characteristics of the user interface are presented, as are the interactions between the product and existing hardware and software on the host platform
+Section two is a general description of the product requirements from a user's perspective
+2 Scope of the Development Project
+A short movie to set up the storyline of the game and provide information to help the user complete the fraction questions

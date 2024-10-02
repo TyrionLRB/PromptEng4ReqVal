@@ -1,0 +1,104 @@
+The statistics of the player (its name, the block movement number, the time passed to solve the headache) is recorded in the statistic file
+There is one block with the following dimensions : a height of x and a width of
+1 Undo et Redo Actions	5
+The user must undo and redo its last thousand actions
+Section 3 gives the specific requirements of the product
+The user can cancel a movement
+Mouse movement during the "Block movement" state
+The game state becomes "Block deplacement"
+This action is consider like a movement
+3 Count of action number	5
+"About Window" is displayed
+3 Definitions, Acronyms, and Abbreviations
+The "About Windows" is composed of the following text "Qheadache 1
+The games is over, see chapter 3
+New game board display
+The difference of time of the block movement and the previous recorded time is recorded
+Let x be the mesure unit
+The hardware and operating
+– number of block movements since the start
+3 Communications Interfaces	6
+Save the current game
+The "undo" action is unvailable if there was no previous movement
+The product uses the Qt graphical library
+If not the "Simple finish Window" is displayed, see chapter 3
+1 Undo et Redo Actions
+2 End of the game management	9
+characteristics of the users of this project, the product' hs ardware, and the
+The game state becomes "Block selection"
+The player statistics are set to the player statistics of the file data
+Left­clicked up on a selected block
+The games is over, see chapter 3
+6 Site Adaptation Requirements
+5 Apportioning of Requirements	5
+The player clicks on the pushbutton "OK"
+3 Simple Finish Window
+The player statistics are recorded in the statistic file of the software, according to the requirement of the chapter 3
+It must run with all the operating systems that Qt supports
+2 Time passed to play
+The product runs as a stand­alone application
+If not, like wrong pemissions or disk full, an error message is displayed
+4 Statistic Window	11
+Action in question is performed :
+If the number of block movements of the current player is lower than the highest number of block movement recorded in the statistic file, the The "Finish Window with Statistcs" is displayed, see chapter 3
+3 Save game as
+The product generally requires a mouse and a keyboard for input
+3 Save game as	13
+No qualification is necessary
+If the file was correctly updated, there is no ouput
+4 Start Up Requirements
+4 Communications Interfaces	4
+4 File management	12
+6 Site Adaptation Requirements	4
+If the game was never saved, the processing is identiqual to the action "Save as
+2 Save game	12
+5 Score windows	5
+The product requires the use of a keyboard and a mouse to interface with the user
+1 Game menu	14
+– "Exit" ­> action "Exit", see chapter 3
+See above chapter 3
+Sound is not required to play the game
+The data stored in the statistic file are erased
+– a menu bar, see chapter 3
+3 Count of action number
+3 Statisctis menu	15
+The game displays the block positions at the places where they were before the last movement was canceled
+5 SRS Document Overview	4
+mt ove near other blocks
+05x from the others blocks
+The product is a computerized game that displays an interface used to solve a specific headache
+It requires a graphical display of at least 800*600 resolution
+The board game is re­draw according to the file data
+2 Finish Window with Statistics
+1 End of the game	9
+2 Block selection	7
+The selected block follows the mouse movement without overlapp the other
+General description of the project is discussed in section 2 of this document
+blocks and exit of the game zone
+Section 2 gives the functional requirements, data requirements and constraints and assumptions made while designing the game
+1 End of the game
+2 Time passed to play
+The selected block can' at least 0
+3 User Characteristics	5
+Software Requirements Specification draft A
+Requirements of the action determines the continuation
+1) or menu selection
+The statistic window is displayed, see chapter 3
+3 Simple Finish Windows	10
+How the user finishs the game
+– "Save Game As
+The following statistics are recorded during the game :
+Each line is composed of the name of a player, the number of block movement, the time used by the player to solve the headache
+If 10 player statistics are already recorded, the player statistics of the file with the greatest number of block movements is erased
+5 Undo Action	8
+– time since the start
+2 Functional Requirements	6
+Open a previous saved game
+The blocks are separated by a marge of 0
+The great square is moved at the bottom of the board
+End of the game (see chapter 3
+2 GENERAL DESCRIPTION	4
+Action in question is performed :
+2 Product Functions	5
+3 Statistics erasing	11
+Other pointing and input devices are allowable, provided they provide similar functions to a mouse and keyboard, namely the ability to move a cursor onscreen to select buttons and the ability to type names
